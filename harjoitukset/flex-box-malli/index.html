@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box Malli auki purettuna</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .color-red {
+            background-color: red;
+            padding: 10px;
+        }
+        .color-blue {
+            background-color: blue;
+            padding: 10px;
+        }
+        .color-green {
+            background-color: green;
+            padding: 10px;
+        }
+        .parent {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+     /* Nämä säännöt voimassa .parent-elementin välittömissä lapsissa */
+        .parent > * {
+            flex-basis: 0px;
+            flex-grow: 1;
+            order: 2;
+        } 
+        
+      .tuplaleveys {
+          flex-grow: 2; /* muista elementeissä on 1 ja nyt siniseen muutetaan 2 -> leveys on 2-kertainen */
+      }
+      
+      .order1 {
+          order: 1;
+      }
+
+    </style>
+</head>
+<body>
+
+    <h1>Kaikki lapset yhtä leveitä</h1>
+    <article class="parent">
+        <p class="color-red"></p>
+        <p class="color-blue"></p>
+        <p class="color-green"></p>
+    </article>
+    <hr>
+
+    <!-- Mihin kohtaan sääntö .tuplaleveys pitää sijoittaa ja mikä pitää olla säännön sisältö? -->
+    <h1>Sininen laatikko on kakis kertaa leveämpi kuin muut</h1>
+    <article class="parent">
+        <p class="color-red"></p>
+        <p class="color-blue tuplaleveys"></p>
+        <p class="color-green"></p>
+    </article>
+    <hr>
+
+    <!-- Mihin kohtaan sääntö .order1 pitää sijoittaa ja mikä on sen sisältö? -->
+    <h1>Vihreä elementti siirretään ensimmäiseksi</h1>
+    <article class="parent">
+        <p class="color-red"></p>
+        <p class="color-blue tuplaleveys"></p>
+        <p class="color-green order1"></p>
+    </article>
+    <hr>
+
+</body>
+
+</html>

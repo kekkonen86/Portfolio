@@ -1,0 +1,18 @@
+.muotoiltu {
+    color: blueviolet;
+    background-color: rgb(98, 190, 155);
+    margin: 20px;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+color: black;
+font-style: italic;
+}
+/* Tehdään kaikista sivun kuvista responsiiviset */
+figure {
+    display:block;
+}
+figure img {
+    max-width: 100%;
+}

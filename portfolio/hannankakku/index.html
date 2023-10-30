@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hannan kakku</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Bootstrap Example Navbar Fixed (https://getbootstrap.com/docs/5.1/examples/navbar-fixed/) -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hannan kakku ja pulla</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- main-sisältö (landing-alue, osa1 ja osa2) -->
+    <main class="container">
+        <!-- Landing-alueen teksti -->
+        <div id="home" class="bg-light p-5 rounded">
+            <h1>Hannan kakku ja pulla</h1>
+            <p class="lead">
+                Hannan kakku ja pulla on uusi Helsingin Vallilassa toimiva kakkupuoti.
+                Liikkeen toimitusjohtajana toimii Hanna Heikkilä
+            </p>
+        </div>
+
+        <!-- Osan 1 sisältö kuvaesitys viidestä kakusta (kuva, nimi, hinta) -->
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/karhu-20-euroa.jpg" class="card-img-top" alt="kakku karhu" />
+                            <div class="card-body">
+                                <p class="card-title">Karhu</p>
+                                <p class="card-text">Hinta: 20 €</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            View
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            Edit
+                                        </button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="images/kukat-25-euroa.jpg" class="card-img-top" alt="kakku kukka">
+
+                            <div class="card-body">
+                            <p class="card-title">Kukat</p>
+                            <p class="card-text">Hinta: 25 €</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            View
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            Edit
+                                        </button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/leppakerttu-30-euroa.jpg" class="card-img-top" alt="leppäkerttu kakku" />
+                               
+                                
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                                    
+                                </text>
+                            </svg>
+
+                            <div class="card-body">
+                                <p class="card-title">Leppäkerttu kakku
+                                </p>
+                                <p class="card-text">
+                                    Hinta: 30 €
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            View
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            Edit
+                                        </button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/porkkanat-20-euroa.jpg" class="card-img-top" alt="porkkana" />
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                                    
+                                </text>
+                            </svg>
+
+                            <div class="card-body">
+                                <p class="card-title">Porkkana kakku</p>
+                                <p class="card-text">
+                                    Hinta: 20 €
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            View
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            Edit
+                                        </button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/ruusut-25-euroa.jpg" class="card-img-top" alt="ruusut" />
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+                                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                                
+                                </text>
+                            </svg>
+
+                            <div class="card-body">
+                                <p class="card-title">Ruusut
+                                </p>
+                                <p class="card-text">
+                                    Hinta: 25 €
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            View
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">
+                                            Edit
+                                        </button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+        <!-- Osan 1 sisältö -->
+    </main>
+    <h1>Hannan kakku</h1>
+    <section class="lomake">
+        <span id="anchor6" class="anchor"></span>
+          <h1>Tilauslomake</h1>
+          <form action="" method="get" class="form-example">
+              <div class="formfield">
+                  <label for="Nimi:">Tilaajan nimi: </label>
+                  <input type="palaute" id="nimi">
+              </div>
+              <div class="formfield">
+                  <label for="Sähköposti:">Kakun nimi: </label>
+                  <input type="email" id="email">
+              </div>
+              <div class="formfield">
+                  <label for="Palautetta:">Määrä:</label>
+                  <input type="palaute" name="palaute" id="palaute">
+              </div>
+              <input class="nappi" type="submit" value="Tilaa" >
+          </form>
+          <footer>
+              <hr /> 
+              <p>Yhteystiedot: Hattulantie 2, 00510 HELSINKI, GSM: +358 50 3451234, yhteys@hkp.fi</p>
+            <p>2021 &#169; Hannan kakku ja pulla 2021.</p>
+      </article>
+    </section>
+</footer>
+</body>
+
+</html>

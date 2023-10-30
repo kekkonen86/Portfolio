@@ -1,0 +1,101 @@
+html {
+    font-size:62.5% ;
+}
+body {
+    background-color: #333333;
+    /* color: white; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1 {
+    color: chocolate;
+    font-size: 2.4rem; /* 2.4rem = 24px */
+    margin-bottom: 2rem;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem; /* 2.4rem = 24px */
+    margin-bottom: 2rem;
+}
+ol {
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem; /* 2.4rem = 24px */
+    margin-bottom: 2rem;
+    list-style: decimal;
+    padding-left: 3rem;
+}
+ol li {
+    padding-bottom: 1rem;
+}
+p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+a {
+    color: burlywood;
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* Landin-alueen CSS-säännöt */
+#home {
+    background-color: darkolivegreen !important;
+}
+
+#home .lead {
+    color: black;
+    font-size: 1.6rem;
+    
+}
+/* Lomake */
+.lomake {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    color: white;
+}
+
+.formfield {
+    display: block;
+    margin-bottom: 1rem;
+}
+.form-example {
+    margin-bottom: 1rem;
+}
+
+.formfield label {
+    width: 25%;
+    display: inline-block;
+}
+
+.formfield input {
+    display: inline-block;
+    width: 70%;
+}
+
+.formfield .nappi {
+    width: unset;
+    padding: 0.7rem;
+    border: 0;
+    border-radius: 5px;
+    background-color: #d2691e;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.nappi {
+    background-color: #d2691e;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 0px;
+    text-align: center;
+    margin-left: 45%;
+    
+}

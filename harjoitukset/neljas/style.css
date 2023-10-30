@@ -1,0 +1,80 @@
+body {background-color: #304F4F;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 20px;
+border:solid white 10px;
+margin: 10px;}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #DEB98A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px
+}
+h2 {
+    color: #29FE2D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px
+}
+h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px
+}
+h4 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px
+}
+h5 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px
+}
+h6 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+font-size: 18px}
+strong {
+    color: 
+    whitesmoke
+    ;
+    
+}
+small {
+    color: red;
+    
+}
+.italic {
+    font-style: italic;
+}
+.strong {
+    font-weight: 900;
+    font-size: 16px;
+}
+.marked {
+    background-color: yellow;
+    color: black;
+}
+.small {
+    color: red;
+    font-size: 10px;
+
+}
+.overlined {
+    text-decoration: line-through;
+}
+.underlined {
+    text-decoration: underline;
+}
+sub {
+    font-size: 10px;
+    vertical-align:sub
+}
+
+sup {
+    font-size: 10px;
+    vertical-align:super
+}
